@@ -145,9 +145,7 @@ void findEmptyBox(int size, int Matrix[size][size])
                 temp = Matrix[i][j];
                 Matrix[i][j] = Matrix[k][l];
                 Matrix[k][l] = temp;
-                // k = i;
-                // l = j;
-                // flag = 1;
+                flag = 1;
                 break;
             }
         if (flag)
