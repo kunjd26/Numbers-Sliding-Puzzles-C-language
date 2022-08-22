@@ -6,7 +6,7 @@
 #include <windows.h>
 #include <string.h>
 
-int k, l;
+int k, l, m;
 
 int arrowKey(void)
 {
